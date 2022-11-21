@@ -13,3 +13,11 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+management:
+  endpoint:
+    refresh:
+      enabled: true
+    web:
+      base-path: /actuator
+      exposure:
+        include: info,health,metrics
