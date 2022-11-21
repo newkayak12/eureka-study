@@ -1,0 +1,10 @@
+server:
+  port: 8761
+
+spring:
+  application: discover-service
+
+eureka:
+  client:
+    reister-with-eureka: false
+    fetch-registry: false
